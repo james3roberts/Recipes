@@ -12,5 +12,5 @@ mydb = mysql.connector.connect(
 #put in a cursor to iterate through the resutls of a query and preform on each row.
 myCursor = mydb.cursor()
 #Create the database and give it a name
-mucursor.execute("CREATE DATABASE recipes")
+myCursor.execute("CREATE DATABASE recipes")
 	
