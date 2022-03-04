@@ -1,16 +1,9 @@
-#going to import mysql to use to make a data base
-import mysql.connector
-
-#I know the basics of sql but I dont know how much that will help with mysql
-# Set up the database
-mydb = mysql.connector.connect(
-	host= "localhost"
-	user="admin"
-	password = "na"
-	)
-
-#put in a cursor to iterate through the resutls of a query and preform on each row.
-myCursor = mydb.cursor()
-#Create the database and give it a name
-myCursor.execute("CREATE DATABASE recipes")
-	
+#going to use SQLite for the database
+import sqlite3
+#create a file the database can keep stuff in
+################# DID NOT WORK WILL###########
+# I might need to add MyOwnProject/Recipes/recipes.db will try asap
+connection = sqlite3.connect(recipes.db)
+#check to see if the Database file was made
+print(connection.total_changes)
+#if this works there should be an output of 0
