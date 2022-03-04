@@ -1,9 +1,11 @@
 #going to use SQLite for the database
 import sqlite3
 #create a file the database can keep stuff in
-################# DID NOT WORK WILL###########
-# I might need to add MyOwnProject/Recipes/recipes.db will try asap
-connection = sqlite3.connect(recipes.db)
+connection = sqlite3.connect("recipes.db")
 #check to see if the Database file was made
-print(connection.total_changes)
+#added the print words to see it it worked.
+print("This is the output", connection.total_changes)
 #if this works there should be an output of 0
+# There is an out put of 0. So far so good. 
+ ### MAKE A SAMPLE DATABASE
+ 
