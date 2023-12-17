@@ -1,0 +1,52 @@
+[
+    {
+      "_id": null,
+      "title": "Dinner Rolls",
+      "category": "Breads",
+      "prepTime": "45 minutes",
+      "totalTime": "60 minutes",
+      "directions": [
+        "Prep oven and baking dish. Heat oven to 400 degrees and grease a 9x13 pan.",
+        "Heat the liquids in a saucepan. Stir together the water and butter then add milk and honey.",
+        "Add yeast, sprinkle yeast on hot water with a teaspoon of sugar for 5 min or till foamy.",
+        "Add dry ingredients, add flour and salt.",
+        "Mix until dough is sticky to the sides of the bowl."
+      ],
+      "ingredients": [
+        {"name": "water", "quantity": "1 Cup"},
+        {"name": "melted butter", "quantity": "2 tablespoons"},
+        {"name": "milk", "quantity": "1/2 Cup"},
+        {"name": "Honey", "quantity": "2 tablespoons"},
+        {"name": "active-dry-yeast", "quantity": "1 tablespoon"},
+        {"name": "all-purpose flour", "quantity": "3 1/2 cups"}
+      ],
+      "createdBy": null,
+      "dateAdded": "2023-12-16"
+    },
+    {
+      "_id": null,
+      "title": "Old-Fashioned Chocolate Fudge",
+      "category": "Desserts",
+      "prepTime": "20 minutes",
+      "totalTime": "1hr 25 mins",
+      "directions": [
+        "Grease an 8-inch square baking pan",
+        "Place sugar and cocoa powder in a medium saucepan; pour in milk and stir until blended.",
+        " Set heat to medium-high and stir constantly until mixture comes to a boil.",
+        "Reduce heat to low and place a candy thermometer in the pan. Let the mixture",
+        "simmer without stirring until the temperature reaches 238 degrees F (114",
+        "degrees C) when measured with a candy thermometer, about 10 minutes.",
+        "Pour fudge into prepared pan and press to flatten. Let cool at room temperature"
+      ],
+      "ingredients": [
+        {"name": "white sugar", "quantity": "2 Cups"},
+        {"name": "melted butter", "quantity": "4 tablespoons"},
+        {"name": "cocoa powder", "quantity": "1/2 Cup"},
+        {"name": "Milk", "quantity": "1 Cup"},
+        {"name": "Vanilla extract", "quantity": "1 teaspoon"}
+      ],
+      "createdBy": null,
+      "dateAdded": "2023-12-17"
+    }
+  ]
+  
